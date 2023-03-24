@@ -1,0 +1,20 @@
+ <h2 style="margin-left: 40%;">Đăng ký</h2>
+    <form style="margin-left: 30%;border: 1px solid black;height: 400px;width: 320px;text-align: center;" action="admin/dangkyAdmin" method="POST">
+      <div style="width: 300px;" class="form-group">
+        <label for="email">Email:</label>
+        <input  type="email" class="form-control" required id="email" placeholder="Enter email" name="email">
+      </div>
+      <div style="width: 300px; text-align: center;" class="form-group">
+        <label for="password">Mật khẩu:</label>
+        <input type="password" required class="form-control" id="password" placeholder="Enter password" name="passWord">
+      </div>
+      <div style="width: 300px;" class="form-group">
+        <label for="name">Họ và tên:</label>
+        <input type="text" required class="form-control" id="name" placeholder="Enter name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="image">Hình ảnh:</label>
+        <input type="file" class="form-control-file" id="image" name="image">
+      </div>
+      <button type="submit" class="btn btn-primary">Đăng ký</button>
+    </form>
